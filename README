@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1012
+
+These are the original script colors as Macromedia Director uses them. This color scheme will probably only make sense with the Lingo syntax file (vimscript #1010). This way you can not only see the colors your are used to, you can also convert them to HTML to put colored Lingo code snippets on your webpage.
+You can even choose whether or not to put the line numbers in.
+
+Screenshots:
+http://www.oxpal.com/downloads/vim/lingodirector_nonumber.png
+http://www.oxpal.com/downloads/vim/lingodirector_number.png
+
+To create an HTML output: 
+* Open a lingo file. 
+* Select this color scheme. 
+* Type ":set number!" to toggle the line numbers on and off
+* Then either choose the menu option "Sytnax>Convert to HTML", or type ":runtime! syntax/2html.vim"
+* You are then in the output file, wich you can save, or copy
